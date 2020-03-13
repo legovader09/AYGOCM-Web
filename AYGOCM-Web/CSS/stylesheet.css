@@ -1,0 +1,20 @@
+span:hover {
+	color:#09F
+}
+.Info {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Notice {
+	color:red;
+	font-weight:bolder;
+}
+#Greens:hover {
+	color:#3F3;
+}
+#Greens {
+	color:green;
+}
+#Reds {
+	color:red;
+}
