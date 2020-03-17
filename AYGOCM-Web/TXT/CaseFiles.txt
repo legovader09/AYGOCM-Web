@@ -1,3 +1,6 @@
+//Codes: -1 = Issues with Card Databases.
+//       -2 = Continue as usual (not used in this list)
+//      >=0 = Card list index, with 0 being the first item
 Red-Eyes B. Dragon: 5
 Meteor Dragon: 1
 Summoned Skull: 5
