@@ -1,4 +1,14 @@
-Version 5.3.2(.1) Public Release Update (Recommended):
+Version 5.4 Public Release Update (Latest):
+
+New batch mode! Now fully working with -b command line argument. 
+	(launch application in a CLI with -b as an argument)
+	Alternatively, press Batch button near the bottom of program.
+Better image search for SearchCards, no longer need a list of URLs. (Using solely YGOPRODeck database)
+Reduced ram usage from 300+MB to about 110MB by change template image previews to smaller images, and other small optimisations. 
+Fixed Add Icon button hovering not working.
+Re-added login and Tester system. (Nothing to it yet other than redeeming tester status, more coming soon!)
+
+Version 5.3.2(.2) Public Release Update:
 
 (HOTFIX #4) Fixed left link arrow glitch.
 (HOTFIX #3) Fixed glitching DEF Text, and more optimisations.
