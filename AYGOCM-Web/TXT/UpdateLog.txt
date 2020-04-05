@@ -1,5 +1,6 @@
-Version 5.4 Public Release Update (Latest):
+Version 5.4(.0.1) Public Release Update (Latest):
 
+(HOTFIX #1) Fixed different font sizes for ATK/DEF.
 New batch mode! Now fully working with -b command line argument. 
 	(launch application in a CLI with -b as an argument)
 	Alternatively, press Batch button near the bottom of program.
