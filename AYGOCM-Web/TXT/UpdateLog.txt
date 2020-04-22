@@ -1,4 +1,15 @@
-Version 5.4(.0.2) Public Release Update (Latest):
+Version 5.4.1 Public Release Update (Latest):
+
+New YGOPRO Deck import tool and Search Tool improvements.
+    Import YDK decklist and export the deck into a folder of the same name.
+You can now search by card ID number.
+Fixed Batch mode error on empty lines.
+Updated to .NET Framework 4.7.2
+Fixed stuck Card Image.
+Tuner, Token, Spirit, Union, Gemini, Toon all show as normal when they should be effect.
+
+
+Version 5.4(.0.2) Public Release Update:
 
 (HOTFIX #2) Fixed Windows 7 issues, as well as issues with glitched/frozen pendulum values.
 (HOTFIX #1) Fixed different font sizes for ATK/DEF.
@@ -9,6 +20,7 @@ Better image search for SearchCards, no longer need a list of URLs. (Using solel
 Reduced ram usage from 300+MB to about 110MB by change template image previews to smaller images, and other small optimisations. 
 Fixed Add Icon button hovering not working.
 Re-added login and Tester system. (Nothing to it yet other than redeeming tester status, more coming soon!)
+
 
 Version 5.3.2(.2) Public Release Update:
 
