@@ -5,10 +5,17 @@ body,td,th {
     color:black;
 	font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    color:cornflowerblue;
+}
 body {
 	background-color: #F4F4F4;
 	background-repeat: repeat;
 }
+
+.bold { font-weight: bold; }
+.red { color: #FF0000; }
+
 </style>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -47,8 +54,6 @@ body {
         <li><a href="#PRTG">Printing Guide</a> (Not available yet)</li>
         <li><a href="#SUPP">How to contact for support</a>
         </li>
-        <li><a href="#TRBLS">Troubleshooting</a>
-        </li>
     </ol>
 
     <a id="SRQ">
@@ -76,32 +81,76 @@ body {
     <a id="DLINP">
     <h3>2. Downloading and Installing the program</h3>
 </a>
-<p>Assuming you already have this program, but you cannot remember how to download it, or you're a new user and want to download and/or install this. Please follow this step by step method, and your program should be installed in no time!</p>
     <ul>
         <li>Download the program from the website below:
-          <p><a href="http://animeygocardmaker.weebly.com/download" target="_blank">Anime Yu-Gi-Oh! Card Maker Download Page</a>
+          <p><a href="https://www.aygocm.co.uk/download" target="_blank">Anime Yu-Gi-Oh! Card Maker Download Page</a>
           </p>
         </li>
+        <li>Alternatively, click here for a direct download link: <a href="http://tiny.cc/aygocm" target="_blank">EXE</a> | <a href="https://animeygocardmaker.netlify.com/JAR/AnimeYuGiOhCardMaker.jar" target="_blank">JAVA</a> | Android (unavailable)</li>
         <li>If you have downloaded the <b>Java</b> version then do the following:
             <ol>
-                <li><b>Make sure JRE 8+ is installed</b>, then simply launch with a double click on Windows.</li>
-                <li>Alternatively, you can run the command <i>java AnimeYuGiOhCardMaker-X.X.jar</i> where X.X is the version of the program.</li>
+                <li><b><a href="https://www.oracle.com/java/technologies/javase-jre8-downloads.html">Make sure JRE 8+ is installed</a></b>, then simply launch with a double click.</li>
+                <li><b>Alternatively</b>, you can run the command <i><b>java -jar AnimeYuGiOhCardMaker.jar</b></i> in a command line interface.</li>
             </ol>
         </li>
         <li>If you have downloaded the <b>EXE</b> version then do the following:
             <ol>
-                <li>Simply launch the program by double clicking it.</li>
                 <li>Make sure .NET Framework 4.5 is installed.</li>
+                <li>Simply launch the program by double clicking it.</li>
             </ol>
         </li>
-        <li>If successful, you'll now have the application installed on your computer, if something went wrong, please provide a screenshot and send it to: <b>aygocm@gmail.com</b>
+        <li>If successful, you'll now have the application running on your computer, if something went wrong, please provide a screenshot and send it to: <b>aygocm@gmail.com</b>
       </li>
     </ul>
     <a id="HTUTP">
         <h3>3. How to use the program</h3>
     </a>
-<p>There is a lot to write in this one so it will be a while before it's done</p>
-
+    <ol type="I">
+        <li><a href="#interface">The Interface</a></li>
+        <img src="../IMG/HelpGuide/interface.png" width="600">
+        <ol type="1">
+            <li><a id="1">ATK Field</a> - This is the <b>attack</b> value of a card (usually in multiples of <b>50</b>> or <b>100</b>. E.g. 1500)</li>
+            <li><a id="2">DEF Field</a> - This is the <b>defense</b> value of a card (usually in multiples of <b>50</b>> or <b>100</b>. E.g. 1500)</li>
+            <li><a id="3">Level Bar</a> - This shows how many <b>levels</b> a <b>Monster Card</b> has. This can be modified using buttons shown in <a href="#5">#5</a></li>
+            <li><a id="4">Attribute Icon</a> - This shows the <b>attribute</b> of a <b>Monster Card</b>. This can be modified using buttons shown in <a href="#6">#6</a></li>
+            <li><a id="5">Level Types & Numbers</a> - There are 3 different Level types: <br>
+                <img src="../IMG/HelpGuide/Level.png" width="20" alt="Earth Attribute">Normal,
+                <img src="../IMG/HelpGuide/Rank.png" width="20" alt="Earth Attribute">Rank,
+                <img src="../IMG/HelpGuide/Negative.png" width="20" alt="Earth Attribute">Negative.
+            </li>
+            <li><a id="6">Attribute Types</a> - There are 7 types of attributes to choose from, these will be displayed on the card as shown by <a href="#4">#4</a><br>
+                <button><img src="../IMG/HelpGuide/Earth.png" width="20" alt="Earth Attribute"></button>Earth,
+                <button><img src="../IMG/HelpGuide/Water.png" width="20" alt="Earth Attribute"></button>Water,
+                <button><img src="../IMG/HelpGuide/Fire.png" width="20" alt="Earth Attribute"></button>Fire,
+                <button><img src="../IMG/HelpGuide/Light.png" width="20" alt="Earth Attribute"></button>Light, <br>
+                <button><img src="../IMG/HelpGuide/Divine.png" width="20" alt="Earth Attribute"></button>Divine,
+                <button><img src="../IMG/HelpGuide/Dark.png" width="20" alt="Earth Attribute"></button>Dark,
+                <button><img src="../IMG/HelpGuide/Wind.png" width="20" alt="Earth Attribute"></button>Wind.
+            </li>
+            <li><a id="7">Card Templates</a> - These images change the appearance of the Card on the left. This change happens immediately when clicking on each image. <br> When you hover your mouse over a template for a few seconds, a popup message will tell you the name of each template.</li>
+            <li><a id="8">Adding Images</a> - Images can be added to the big white squared space where the + symbol is located. The + symbol can be clicked, or the <button>Change Image</button> button can be pressed (located to the right). <br> Both actions will open a Dialog where you can choose an image (<b>of type .PNG, .JP(E)G, .BMP</b>) which will then be displayed int he white space of the card.</li>
+            <li><a id="9">File Name Text Box</a> - This will be the name of your card once you decide to save it. You can write anything in here. (e.g. <input readonly size="14" value="Stardust Dragon"/></li>
+            <li><a id="10">File Type Drop Box</a> - In relation to <a href="#9">#9</a>, This is the Image format type that your card will be saved as. <br> Usually, this box can be ignored as in most cases the value does not need to be changed.</li>
+            <li><a id="11">Card Library</a> - This button (located bottom-right of the big card) opens another window that shows all your created cards, from there they can be viewed, or deleted. <br> The location of this can be changed under the settings tab at the top of the app.</li>
+            <li><a id="12">Reset Card</a> - This is the button near the bottom-right of the app, with the <span class="red bold">bright red text</span>. It resets any changes or modifications you have made. Essentially, the app will look exactly like it does in the image above.</li>
+            <li><a id="13">Help Guide</a> - The button opens this Dialog!</li>
+            <li><a id="14">Check for Updates</a> - This checks the server for any new updates of the card maker.</li>
+            <li><a id="15">Report Bug</a> - Did you come across something that wasn't working as intended? Please press this button and submit your report here. You may also include images. Please try to be as detailed as possible.</li>
+            <li><a id="16">Feedback Button</a> - Can you think of something that could make this app even better? Please submit it by pressing this button! It will take you to a Google Forms page.</li>
+            <li><a id="17">Export Card Button</a> - Once you have designed the card to your choosing, pressing this button (the really wide button towards the middle) will save your card to the library location mentioned in <a href="#11">#11</a></li>
+            <li><a id="18">Save/Load Configuration</a> - These buttons allow you to save a card configuration for if you ever want to recreate a card with ease. The editor allows you to change values for a save file. This is shown in the <a href="#SAVEDT">Save Editor</a> section</li>
+            <li><a id="19">Extras Group</a> - This section contains 4 buttons: <br>
+                <button>Symbols</button> - Shows a menu where you can put extra symbols into ATK/DEF fields (<a href="#1">#1</a>, <a href="#2">#2</a>) such as the infinite symbol. <br>
+                <button>Batch</button> - This opens a console that allows automation of card images, this uses the Search Tool function described below. <br>
+                <button>Search Cards</button> - This search tool function allows you to search for a specific card on the <a href="http://db.ygoprodeck.com" target="_blank">YGOPRODeck Database</a> and apply it to the card in the app. <br>
+                <button>Import YGOPRO Deck</button> - This button opens a dialog where you can pick a YGOPRO deck file (.ydk) and import all the cards into the app to convert them into anime versions.
+            </li>
+            <li><a id="20">Login/My Account Button</a> - This button brings you tot he account section of the app, this is where you can register an account, and redeem your Testers value. Accounts in the future will allow you to share your creations with the world.</li>
+        </ol>
+        <li><a href="#interface">The Interface</a></li>
+        <li><a href="#interface">The Interface</a></li>
+        <li><a href="#interface">The Interface</a></li>
+    </ol>
     <a id="SAVEDT">
         <h3>Using the Save Editor</h3>
     </a>
@@ -262,12 +311,7 @@ body {
     <a id="SUPP">
 <h3>5. How to contact for support</h3>
 </a>
-    <p>To contact for support, please use the contact form within the application or email me at <b>dcdominoes@gmail.com</b>.</p>
-
-<a id="TRBLS">
-<h3>6. Troubleshooting</h3>
-</a>
-<p>Place is under construction until enough people have contributed towards troubleshooting with sending feedback.</p>
+    <p>To contact for support, please use the contact form within the application or email me at <b>aygocm@gmail.com</b>.</p>
 </body>
 
 </html>
