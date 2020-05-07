@@ -1,5 +1,6 @@
-Version 5.4.1 Public Release Update (Latest):
+Version 5.4.2 Public Release Update (Latest):
 
+(HOTFIX #1) Fixed ATK missing glitch when importing YGOPRO decks.
 New YGOPRO Deck import tool and Search Tool improvements.
     Import YDK decklist and export the deck into a folder of the same name.
 You can now search by card ID number.
