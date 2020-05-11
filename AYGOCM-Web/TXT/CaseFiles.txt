@@ -1,11 +1,2 @@
-//Codes: -1 = Issues with Card Databases.
-//       -2 = Continue as usual (not used in this list)
-//      >=0 = Card list index, with 0 being the first item
-Red-Eyes B. Dragon: 5
-Meteor Dragon: 1
-Summoned Skull: 5
-Feral Imp: 1
-Hitotsu-Me Giant: 2
-Curse of Dark Cross Star: -1
-Dragonic Pulse of the Land: -1
-Stardust Dragon: 0
+//Codes: ?(,?) = ATK, DEF as ? value
+241974752: ?
