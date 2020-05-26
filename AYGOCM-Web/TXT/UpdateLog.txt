@@ -1,4 +1,10 @@
-Version 5.4.2 Public Release Update (Latest):
+Version 5.4.3 Public Release Update! (Latest):
+
+Fixed Search Tool errors and crashes. 
+Fixed Link Markers not showing when using search tool.
+Fixed pendulum scale values being invisible after using search tool.
+
+Version 5.4.2 Public Release Update:
 
 (HOTFIX #1) Fixed ATK missing glitch when importing YGOPRO decks.
 New YGOPRO Deck import tool and Search Tool improvements.
