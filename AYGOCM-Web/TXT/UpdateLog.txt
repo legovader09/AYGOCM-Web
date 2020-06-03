@@ -1,5 +1,6 @@
 Version 5.4.3 Public Release Update! (Latest):
 
+(HOTFIX #1) Fixed exporting issues that some users had.
 Fixed Search Tool errors and crashes. 
 Fixed Link Markers not showing when using search tool.
 Fixed pendulum scale values being invisible after using search tool.
