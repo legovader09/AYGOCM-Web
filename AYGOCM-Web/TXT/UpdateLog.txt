@@ -1,5 +1,8 @@
-Version 5.4.3 Public Release Update! (Latest):
-
+Version 5.4.3(.2) Public Release Update! (Latest):
+(HOTFIX #2) Fixed some hover tooltip text showing the wrong card names on the most recent templates.
+Re-worked the update checker.
+Added i18n (internationalisation) support.
+--------------------------------------
 (HOTFIX #1) Fixed exporting issues that some users had. Also added JSON support for Loading/Saving cards.
 Fixed Search Tool errors and crashes. 
 Fixed Link Markers not showing when using search tool.
