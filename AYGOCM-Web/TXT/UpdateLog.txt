@@ -1,4 +1,5 @@
-Version 5.4.3(.2) Public Release Update! (Latest):
+Version 5.4.3(.3) Public Release Update! (Latest):
+(HOTFIX #3) Fixed crashes that some users were experiencing.
 (HOTFIX #2) Fixed some hover tooltip text showing the wrong card names on the most recent templates.
 Re-worked the update checker.
 Added i18n (internationalisation) support.
