@@ -1,4 +1,31 @@
-Version 5.4.3(.3) Public Release Update! (Latest):
+Version 5.4.4 Public Release Update! (Latest):
+
+Small Announcement: 
+	We now have a uTip account, feel free to support us by donating or watching ads to help us keep up the website! 
+	Any contribution is much appreciated, and anyone donating or buying items from the shop will receive an animated background for the program too! (requires AYGOCM account)
+Planned Features:
+	Possibility of having English attributes.
+	Adding custom levels.
+	Adjustable card image, to allow cropping and fitting into the frame.
+NEW:
+	Announcement section on the news page window.
+	Deleted all config files, in favour of one combined config file. Some settings may have been reset, we apologise for the inconvenience caused!
+	New feature to upload your creations (privately for now) online through the Gallery app! (Needs an account.)
+	Added stats for amount of cards created, and number of times app has been used under "My Account" section.
+	Added an update channel option so you can switch between "stable" and "beta" builds.
+	Added 3 new card types:
+		1 Box Winged Dragon of Ra
+		1 Box Obelisk the Tormentor
+		1 Box Slifer the Sky Dragon
+FIXES/CHANGES:
+	Changed export card resolution to 400x583 to more accurately match the dimensions of real sized Yu-Gi-Oh! Cards.
+	Fixed title colour not loading properly.
+	Increased Card Gallery loading performance, and fixed issues with deleting from right-click menu.
+	Potentially fixed export issues that some users were having, where the capture was offset and showing the desktop.
+
+
+Version 5.4.3(.3) Public Release Update!:
+
 (HOTFIX #3) Fixed crashes that some users were experiencing.
 (HOTFIX #2) Fixed some hover tooltip text showing the wrong card names on the most recent templates.
 Re-worked the update checker.
@@ -8,6 +35,7 @@ Added i18n (internationalisation) support.
 Fixed Search Tool errors and crashes. 
 Fixed Link Markers not showing when using search tool.
 Fixed pendulum scale values being invisible after using search tool.
+
 
 Version 5.4.2 Public Release Update:
 
