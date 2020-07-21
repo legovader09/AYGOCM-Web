@@ -15,11 +15,37 @@ body {
 div {
     height: calc(100vh - 10vmax)
 }
+:target {
+	-webkit-animation: target-fade 1s;
+	-moz-animation: target-fade 1s;
+	-o-animation: target-fade 1s;
+	animation: target-fade 1s;
+}
+@-webkit-keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@-moz-keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@-o-keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
 
 .bold { font-weight: bold; }
 .red { color: #FF0000; }
 
 </style>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Anime Yu-Gi-Oh! Card Maker | Help Guide</title>
@@ -90,7 +116,7 @@ div {
           <p><a href="https://www.aygocm.co.uk/download" target="_blank">Anime Yu-Gi-Oh! Card Maker Download Page</a>
           </p>
         </li>
-        <li>Alternatively, click here for a direct download link: <a href="http://tiny.cc/aygocm" target="_blank">EXE</a> | <a href="https://animeygocardmaker.netlify.com/JAR/AnimeYuGiOhCardMaker.jar" target="_blank">JAVA</a> | Android (unavailable)</li>
+        <li>Alternatively, click here for a direct download link: <a href="http://tiny.cc/aygocm" target="_blank">EXE</a> | <a href="https://animeygocardmaker.netlify.com/JAR/AnimeYuGiOhCardMaker.jar" target="_blank">JAVA</a> | <a href="https://play.google.com/apps/testing/com.ygoacc/join">Android</a></li>
         <li>If you have downloaded the <b>Java</b> version then do the following:
             <ol>
                 <li><b><a href="https://www.oracle.com/java/technologies/javase-jre8-downloads.html">Make sure JRE 8+ is installed</a></b>, then simply launch with a double click.</li>
