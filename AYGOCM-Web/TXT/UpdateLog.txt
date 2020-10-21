@@ -1,9 +1,6 @@
-Version 5.4.4(.1) Public Release Update! (Latest):
-
+Version 5.4.4(.2) Public Release Update! (Latest):
+(HOTFIX #2) Fixed Card Library folder not being created when starting for the first time.
 (HOTFIX #1) Fixed alignments with levels and attributes being offset on some screens.
-Small Announcement: 
-	We now have a uTip account, feel free to support us by donating or watching ads to help us keep up the website! 
-	Any contribution is much appreciated, and anyone donating or buying items from the shop will receive an animated background for the program too! (requires AYGOCM account)
 Planned Features:
 	Possibility of having English attributes.
 	Adding custom levels.
