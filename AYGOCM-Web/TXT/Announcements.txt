@@ -1,2 +1,2 @@
-Date: 17/12/2020
-New update has dropped to fix some issues, be sure to check it out!
+Date: 05/01/2021
+We are aware of an issue arising that the Search Tool/YGOPRO Deck tool is not working properly, and are already working on pushing out a fix on all versions of the app as soon as possible.
