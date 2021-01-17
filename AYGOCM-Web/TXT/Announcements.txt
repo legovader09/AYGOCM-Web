@@ -1,2 +1,2 @@
-Date: 05/01/2021  
-We are aware of an issue arising that the Search Tool/YGOPRO Deck tool is not working properly, and are already working on pushing out a fix on all versions of the app as soon as possible.
+Date: 17/01/2021  
+The search tool should function as normal again.
