@@ -1,4 +1,5 @@
 Version 5.4.4(.3) Public Release Update! (Latest):
+
 (HOTFIX #3) Fixed "Import YGOPRO Deck" not saving cards.
 (HOTFIX #2) Fixed Card Library folder not being created when starting for the first time.
 (HOTFIX #1) Fixed alignments with levels and attributes being offset on some screens.
