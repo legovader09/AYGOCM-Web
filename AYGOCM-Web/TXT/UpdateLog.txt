@@ -1,5 +1,6 @@
-Version 5.4.5 Public Release Update (Latest):
+Version 5.4.5(.1) Public Release Update (Latest):
 
+(HOTFIX #1) Fixed spells and trap cards returning an error when nothing went wrong.
 FIXES/CHANGES:
     Fixed failing to find card artwork breaking the search tool
     Fixed bug reporter not sending reports properly
