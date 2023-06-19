@@ -1,4 +1,17 @@
-Version 5.4.4(.3) Public Release Update! (Latest):
+Version 5.4.5 Public Release Update (Latest):
+
+FIXES/CHANGES:
+    Fixed failing to find card artwork breaking the search tool
+    Fixed bug reporter not sending reports properly
+    On startup, the app goes through all old .aygo files and converts them to the favoured .json files
+    Removed a lot of outdated files/features for better performance
+    This includes:
+        Broken login/account system.
+        Online gallery
+        FAQ window, instead this opens the FAQ page directly.
+        Version 5.4.4(.4) Public Release Update:
+
+Version 5.4.4(.3) Public Release Update:
 
 (HOTFIX #3) Fixed "Import YGOPRO Deck" not saving cards.
 (HOTFIX #2) Fixed Card Library folder not being created when starting for the first time.
