@@ -1,3 +1,1 @@
-Date: 19/06/2023\n
-New optimisation update available!\n
-The search tool should function as normal again. 
+Date: 19/06/2023    New optimisation update available!    The search tool should function as normal again. 
