@@ -3,3 +3,9 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   prettyURLs = false
+
+[[redirects]]
+  from = "https://animeygocardmaker.netlify.app/*"
+  to = "https://repos.aygocm.co.uk/:splat"
+  status = 301
+  force = true
