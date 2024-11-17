@@ -1,0 +1,4 @@
+# robots.txt for http://repos.aygocm.co.uk/
+
+User-agent: *
+Disallow: /
