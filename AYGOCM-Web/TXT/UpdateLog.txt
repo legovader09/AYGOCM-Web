@@ -1,12 +1,13 @@
-Version 5.4.5(.1) Public Release Update (Latest):
-
-(HOTFIX #1) Fixed spells and trap cards returning an error when nothing went wrong.
-FIXES/CHANGES:
-    Fixed failing to find card artwork breaking the search tool
-    Fixed bug reporter not sending reports properly
-    On startup, the app goes through all old .aygo files and converts them to the favoured .json files
-    Removed a lot of outdated files/features for better performance
-    This includes:
-        Broken login/account system.
-        Online gallery
-        FAQ window, instead this opens the FAQ page directly.
+Version 6.0 Public Release Update (Latest):
+    New Features:
+        Upgraded the app to use .NET 9 for the latest optimisations.
+        Revamped UI to align with Java Edition's for a smoother experience.
+        Added various UI component translations.
+        Added app logging to help diagnose issues when submitting bug reports.
+    Fixes/Changes:
+        Fixed random errors that occured on various areas of the app
+        Updated URLs for news page, update checker, etc. As they were broken.
+        Card library now sorts folders (like from .ydk import) into separate tabs.
+        Better move card library logic.
+        Exported cards, and app files now live in AppData (%appdata%/AYGOCM)
+            This should ensure better compatibility, and hopefully no issues with fonts not loading.
