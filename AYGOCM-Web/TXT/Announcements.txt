@@ -1,1 +1,1 @@
-Date: 02/05/2025    CARD EXPORT ISSUES!    We are aware of current issues regarding the card export feature, and are looking into a fix. For the time being, please use Version 5.4.5.
+Date: 02/05/2025    CARD EXPORT ISSUES!    We are aware of current issues regarding the card export feature, and are looking into a fix. For the time being, please use Version 5.4.5.1
