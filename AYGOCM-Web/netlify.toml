@@ -9,3 +9,11 @@ package = "@netlify/plugin-sitemap"
   to = "https://repos.aygocm.co.uk/:splat"
   status = 301
   force = true
+
+# Serve installers from GitHub instead of Netlify: bots bulk-downloading
+# old /EXE/ builds were burning Netlify bandwidth credits.
+[[redirects]]
+  from = "/EXE/*"
+  to = "https://github.com/legovader09/AYGOCM-Web/raw/refs/heads/master/AYGOCM-Web/EXE/:splat"
+  status = 302
+  force = true
